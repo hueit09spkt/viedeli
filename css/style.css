@@ -561,29 +561,35 @@
 
 /* /introduce begin */
 
-.main-pd .main-pd__introduce {
+.main-id .main-id__introduce {
     background: url(../images/nhatdan-bg.png) no-repeat white;
     padding-top: 100px !important;
 }
 
-.main-pd .main-pd__introduce h3 {
+.main-id .main-id__introduce h3 {
     font-size: 36px;
     font-family: 'Lato Bold';
 }
 
-.main-pd .main-pd__introduce>.container>p {
+.main-id .main-id__introduce>.container>p {
     font-size: 13px;
+    font-weight: bold;
+    color: black;
 }
 
-.main-pd .page--header {
+.main-id .main-id__introduce>.container>p>a {
+    color: #8c877d;
+}
+
+.main-id .page--header {
     padding: 15px 0;
 }
 
-.main-pd .introduce--left {
+.main-id .introduce--left {
     padding-top: 50px;
 }
 
-.main-pd .introduce--left p {
+.main-id .introduce--left p {
     margin: 15px 0;
     text-align: justify;
     font-size: 16px;
@@ -595,7 +601,7 @@
 
 /* somepicture begin */
 
-.pd-header {
+.id-header {
     font-size: 48px;
     font-family: 'Lato Light';
     font-weight: unset;
@@ -609,34 +615,34 @@
 
 /* begin about us */
 
-.main-pd .main-pd__about-us .about-us--story {
-    background: url(../images/pd-about-us-bg.png) no-repeat white;
+.main-id .main-id__about-us .about-us--story {
+    background: url(../images/id-about-us-bg.png) no-repeat white;
 }
 
-.main-pd .about-us--story {
+.main-id .about-us--story {
     background: white;
 }
 
-.main-pd .about-us--title,
-.main-pd .story__content {
+.main-id .about-us--title,
+.main-id .story__content {
     margin: 0 auto;
 }
 
-.main-pd .about-us--title p {
+.main-id .about-us--title p {
     line-height: 20px;
 }
 
-.main-pd .about-us--title {
+.main-id .about-us--title {
     text-align: center;
 }
 
-.main-pd .main-pd__about-us .about-us--story {
+.main-id .main-id__about-us .about-us--story {
     padding-top: 115px;
     margin-top: 100px;
     padding-bottom: 100px;
 }
 
-.main-pd .main-pd__about-us .about-us--story .story__content {
+.main-id .main-id__about-us .about-us--story .story__content {
     background: white;
     padding: 50px;
 }
@@ -645,18 +651,18 @@
 /* end about us */
 
 
-/* main-pd__misson-vision begin */
+/* main-id__misson-vision begin */
 
-.main-pd p {
+.main-id p {
     font-size: 16px;
 }
 
-.main-pd .main-pd__misson-vision .misson-vision--header {
+.main-id .main-id__misson-vision .misson-vision--header {
     margin: 0 auto;
     text-align: center;
 }
 
-.main-pd .main-pd__misson-vision .misson-vision--list {
+.main-id .main-id__misson-vision .misson-vision--list {
     border: solid 1px #cdb4a2;
     margin: 15px;
     margin-top: 70px;
@@ -665,7 +671,7 @@
     position: relative;
 }
 
-.main-pd .main-pd__misson-vision .misson-vision--list::before {
+.main-id .main-id__misson-vision .misson-vision--list::before {
     content: '';
     display: block;
     position: absolute;
@@ -673,11 +679,11 @@
     left: calc(50% - 43px);
     width: 86px;
     height: 86px;
-    background: url(../images/pd-coffee.png) no-repeat;
+    background: url(../images/id-coffee.png) no-repeat;
     background-size: cover;
 }
 
-.main-pd .main-pd__misson-vision .misson-vision--list h4 {
+.main-id .main-id__misson-vision .misson-vision--list h4 {
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
@@ -686,27 +692,27 @@
 }
 
 
-/* main-pd__misson-vision end */
+/* main-id__misson-vision end */
 
 
-/* main-pd__freeship begin */
+/* main-id__freeship begin */
 
-.main-pd .main-pd__freeship .freeship--content {
+.main-id .main-id__freeship .freeship--content {
     margin: 0 auto;
     text-align: center;
 }
 
-.main-pd .main-pd__freeship .freeship--content h2 {
+.main-id .main-id__freeship .freeship--content h2 {
     font-size: 36px;
     margin-bottom: 20px;
 }
 
-.main-pd .main-pd__freeship .freeship--content p {
+.main-id .main-id__freeship .freeship--content p {
     padding: 0 30px;
 }
 
 
-/* main-pd__freeship end */
+/* main-id__freeship end */
 
 
 /* ---------------------------------------------------------------- */
@@ -742,13 +748,19 @@
 
 .main-ct .main-ct__introduce>.container>p {
     font-size: 13px;
+    font-weight: bold;
+    color: black;
+}
+
+.main-ct .main-ct__introduce>.container>p>a {
+    color: #8c877d;
 }
 
 .main-ct .page--header {
     padding: 15px 0;
 }
 
-.main-ct .main-ct__introduce .introduce__content .pd-header {
+.main-ct .main-ct__introduce .introduce__content .id-header {
     font-size: 30px;
 }
 
@@ -830,3 +842,46 @@
 
 
 /* ct-footer end  */
+
+
+/* ---------------------------------------------------------------- */
+
+
+/* ------------------------page Contact End --- ----------------- */
+
+
+/* ---------------------------------------------------------------- */
+
+
+/* ------------------------page Product Begin --- ----------------- */
+
+
+/* ---------------------------------------------------------------- */
+
+.main-pd p {
+    font-size: 16px;
+}
+
+.main-pd .main-pd__introduce {
+    background: url(../images/nhatdan-bg.png) no-repeat white;
+    padding-top: 100px !important;
+}
+
+.main-pd .main-pd__introduce h3 {
+    font-size: 36px;
+    font-family: 'Lato Bold';
+}
+
+.main-pd .main-pd__introduce>.container>p {
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+}
+
+.main-pd .main-pd__introduce>.container>p>a {
+    color: #8c877d;
+}
+
+.main-pd .page--header {
+    padding: 15px 0;
+}
