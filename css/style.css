@@ -722,3 +722,25 @@
 
 
 /* ---------------------------------------------------------------- */
+
+.main-ct .main-ct__introduce {
+    background: url(../images/nhatdan-bg.png) no-repeat white;
+    padding-top: 100px !important;
+}
+
+.main-ct .main-ct__introduce h3 {
+    font-size: 36px;
+    font-family: 'Lato Bold';
+}
+
+.main-ct .main-ct__introduce>.container>p {
+    font-size: 13px;
+}
+
+.main-ct .page--header {
+    padding: 15px 0;
+}
+
+.main-ct .main-ct__introduce .introduce__content .pd-header {
+    font-size: 30px;
+}
