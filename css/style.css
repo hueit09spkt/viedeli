@@ -622,6 +622,10 @@
     margin: 0 auto;
 }
 
+.main-pd .about-us--title p {
+    line-height: 20px;
+}
+
 .main-pd .about-us--title {
     text-align: center;
 }
