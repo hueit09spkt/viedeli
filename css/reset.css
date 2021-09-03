@@ -1,0 +1,105 @@
+/*
+File này code các thành phần reset CSS, định nghĩa font-face
+*/
+
+
+/*Khai báo biến*/
+
+:root {
+    --base-color: #7f7f7f;
+    /*Màu chủ đạo của text*/
+    --primary-color: #898f4b;
+    /*Màu chủ đạo của website*/
+    --secondary-color: #80765f;
+    /*Màu chủ dạo thứ 2*/
+    --heading-color: #2c2922;
+    /*Màu các thẻ heading*/
+    --link-color: #403c34;
+    /*Màu của liên kết*/
+    --container-width: 1170px;
+    /*Chiều rộng container*/
+}
+
+
+/*Reset chung tất cả thành phầ*/
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+
+/*Nhúng font*/
+
+@font-face {
+    font-family: "Lato Bold";
+    src: url('../fonts/lato-bold.ttf');
+}
+
+@font-face {
+    font-family: "Lato Light";
+    src: url('../fonts/lato-light.ttf');
+}
+
+@font-face {
+    font-family: "Lato Regular";
+    src: url('../fonts/lato-regular.ttf');
+}
+
+@font-face {
+    font-family: "SVN Fontbox";
+    src: url('../fonts/SVN-Fontbox-Boathouse-Filled.otf');
+}
+
+
+/*Thiết lập các thành phần dùng chung*/
+
+body {
+    color: var(--base-color);
+    font-family: "Lato Regular", sans-serif;
+    font-size: 14px;
+    line-height: 1.1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--heading-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+ul,
+ol {
+    list-style: none inside;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: var(--container-width);
+    margin: 0 auto;
+}
+
+.section-box{
+    padding: 30px 0px;
+}
+
+.section-title{
+    color: #2c2922;
+    font-size: 30px;
+    padding: 40px 0px;
+    text-align: center;
+}

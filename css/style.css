@@ -1,0 +1,720 @@
+/*File chạy chính định dạng của project*/
+
+
+/*Header - Begin*/
+
+.header {
+    padding: 25px 0px;
+    position: relative;
+}
+
+.header .color-blur {
+    background: url(../images/nhatdan-bg.png) no-repeat wheat;
+    background-size: auto;
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+}
+
+.header .header__logo img {
+    position: absolute;
+    top: 0px;
+    z-index: 5;
+}
+
+.header .header__nav {
+    padding: 10px 0px;
+}
+
+.header .header__nav ul li {
+    display: inline-block;
+    transform: translateY(-5px);
+}
+
+.header .header__nav ul li a {
+    text-transform: uppercase;
+    display: block;
+    padding: 0px 15px;
+}
+
+.header .header__nav ul li:first-child a {
+    padding-left: 20px;
+}
+
+.header .header__nav ul li:last-child a {
+    padding-right: 10px;
+    padding-left: 30px;
+}
+
+.header .header__nav ul li:last-child {
+    transform: translateY(5px);
+    -webkit-transform: translateY(5px);
+    -moz-transform: translateY(5px);
+    -ms-transform: translateY(5px);
+    -o-transform: translateY(5px);
+}
+
+#toggle-menu {
+    display: none;
+}
+
+.show-mobile {
+    display: none;
+}
+
+
+/* .header .header__hotline{
+
+} */
+
+.header .header__hotline span,
+.contact-box--form .contact-box--form__hotline span {
+    display: block;
+}
+
+.header .header__hotline span:first-child,
+.contact-box--form .contact-box--form__hotline span:first-child {
+    color: #767676;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.header .header__hotline span:last-child,
+.contact-box--form .contact-box--form__hotline span:last-child {
+    color: var(--primary-color);
+    font-size: 20px;
+    font-family: "Lato Bold", sans-serif;
+}
+
+.header .header__hotline::before,
+.contact-box--form .contact-box--form__hotline::before {
+    content: '';
+    display: block;
+    width: 35px;
+    height: 40px;
+    float: left;
+    background: url('../images/phone-icon.png') no-repeat;
+    background-size: 35px 40px;
+    margin-right: 12px;
+}
+
+
+/*Header - End*/
+
+
+/*Main Slide - Begin*/
+
+.main-slide {
+    position: relative;
+}
+
+.main-slide .main-slide__controls span {
+    position: absolute;
+    top: 40%;
+    background: #fff;
+    color: #161616;
+    width: 45px;
+    height: 45px;
+    display: block;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    font-size: 30px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.main-slide .main-slide__controls .main-slide--prev {
+    left: 2%;
+}
+
+.main-slide .main-slide__controls .main-slide--next {
+    right: 2%;
+}
+
+.main-slide .main-slide__dots {
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.main-slide .main-slide__dots span {
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 2px solid #dadada;
+    margin: 0 2.5px;
+    cursor: pointer;
+    transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+}
+
+.main-slide .main-slide__dots span.active,
+.main-slide .main-slide__dots span:hover {
+    border-color: #fff;
+    background: #fff;
+}
+
+
+/*Main Slide - End*/
+
+
+/*Why us - Begin*/
+
+.why-us .section-title {
+    text-transform: uppercase;
+    font-family: "Lato Bold", sans-serif;
+}
+
+.why-us .why-us__item {
+    padding-right: 100px;
+}
+
+.why-us .why-us__item h3 {
+    color: #0f0f0f;
+    font-size: 16px;
+    font-family: "Lato Bold", sans-serif;
+    text-transform: uppercase;
+    padding: 20px 0px;
+}
+
+.why-us .why-us__item p {
+    text-align: justify;
+}
+
+.why-us .why-us--reamore {
+    text-align: center;
+    margin: 60px 0px 0px;
+}
+
+.why-us .why-us--reamore a {
+    color: #8c877d;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 10px 50px;
+    border: 1px solid #e6e6e6;
+}
+
+
+/*Why us - End*/
+
+
+/*Product box - Beign*/
+
+.product-box {
+    background: url('../images/product-bg.png') no-repeat center 40px;
+    background-size: cover;
+    padding-top: 40px;
+}
+
+.product-box .section-title {
+    font-family: "Lato Bold", sans-serif;
+    font-size: 24px;
+}
+
+.product-box .section-title span {
+    color: var(--primary-color);
+    font-family: "SVN Fontbox", sans-serif;
+    font-size: 72px;
+    font-weight: normal;
+    margin: 0 15px;
+}
+
+.product-box .product-box__list {
+    margin: 30px 0;
+    position: relative;
+}
+
+.product-box .product-box__list .product-box--item {
+    padding: 0 33px;
+    text-align: center;
+}
+
+.product-box .product-box__list .product-box--item span {
+    display: block;
+}
+
+.product-box .product-box__list .product-box--item h3 {
+    font-size: 30px;
+    color: #1f1f1f;
+    font-family: "Lato Bold", sans-serif;
+    margin: 30px 0px 5px;
+}
+
+.product-box .product-box__list .product-box--item .item__category {
+    margin-bottom: 20px;
+}
+
+.product-box .product-box__list .product-box--item .item__category a {
+    color: var(--primary-color);
+    font-size: 14px;
+    font-family: "Lato Bold", sans-serif;
+    text-transform: uppercase;
+}
+
+.product-box .product-box__list .product-box--item .item__price {
+    color: #373737;
+    font-size: 18px;
+}
+
+.product-box .product-box__list .product-box__controls span {
+    position: absolute;
+    top: 30%;
+    background: #fff;
+    color: #161616;
+    width: 45px;
+    height: 45px;
+    display: block;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    font-size: 30px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.product-box .product-box__list .product-box__controls .controls--prev {
+    left: calc(45px/2);
+}
+
+.product-box .product-box__list .product-box__controls .controls--next {
+    right: calc(45px/2);
+}
+
+
+/*Product box - End*/
+
+
+/*Location box - Begin*/
+
+.location-box,
+.contact-box {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.location-box .location-box__item,
+.contact-box .contact-box--item {
+    padding: 0;
+}
+
+.location-box .location-box__item:last-child {
+    background: var(--primary-color);
+    color: #fff;
+    padding: 70px 120px;
+}
+
+.location-box .location-box__item img,
+.contact-box .contact-box--item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.location-box .location-box__item h2 {
+    font-size: 48px;
+    color: #fff;
+    font-family: "Lato Light", sans-serif;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.location-box .location-box__item p {
+    margin-bottom: 40px;
+    line-height: 1.5;
+}
+
+.location-box .location-box__item span a {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    word-spacing: 5px;
+}
+
+.location-box .location-box__item span i {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 1px solid #fff;
+    padding: 3px 8px;
+}
+
+
+/*Location box - End*/
+
+.news-box .section-title {
+    text-transform: uppercase;
+    font-family: "Lato Bold", sans-serif;
+}
+
+.news-box .news-box__item .item__category {
+    text-transform: uppercase;
+    margin: 20px 0px;
+}
+
+.news-box .news-box__item .item__category a {
+    color: var(--primary-color);
+    font-family: "Lato Bold", sans-serif;
+}
+
+.news-box .news-box__item h3 {
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: "Lato Bold", sans-serif;
+    color: #171717;
+}
+
+.news-box .news-box__item .item__desc {
+    line-height: 1.5;
+}
+
+
+/*News box - End*/
+
+
+/*Partner box - Begin*/
+
+.partner-box .section-title {
+    text-transform: uppercase;
+}
+
+.partner-box .partner-box__list {
+    align-items: center;
+    justify-content: center;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.partner-box .partner-box--item {
+    text-align: center;
+}
+
+
+/*Partner box - End*/
+
+
+/*Contact box - Begin*/
+
+.contact-box .contact-box--form {
+    background: var(--primary-color);
+    height: 100%;
+    color: #fff;
+    padding: 50px 55px;
+}
+
+.contact-box .contact-box--form .section-title {
+    color: #fff;
+    font-size: 34px;
+    font-family: "Lato Light", sans-serif;
+    font-weight: normal;
+    padding-top: 0;
+}
+
+.contact-box .contact-box--form .form-group {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.contact-box .contact-box--form .form-group.has-icon::before,
+.footer .footer--subcribe .form-group::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 12px;
+    bottom: 0;
+}
+
+.contact-box .contact-box--form .form-group.user-icon::before {
+    background: url('../images/user-icon.png') no-repeat center center;
+    background-size: 100% auto;
+}
+
+.contact-box .contact-box--form .form-group.email-icon::before,
+.footer .footer--subcribe .form-group::before {
+    background: url('../images/email-icon.png') no-repeat center center;
+    background-size: 100% auto;
+}
+
+.contact-box .contact-box--form .form-group.phone-icon::before {
+    background: url('../images/phone-icon.png') no-repeat center center;
+    background-size: 100% auto;
+}
+
+.contact-box .contact-box--form input {
+    width: 100%;
+    padding: 12px 12px 12px 45px;
+    color: #3a3a3a;
+}
+
+.contact-box .contact-box--form ::placeholder {
+    color: #3a3a3a;
+    text-transform: uppercase;
+}
+
+.contact-box .contact-box--form button {
+    color: #fff;
+    display: block;
+    background: #242424;
+    width: 100%;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 12px 0;
+    cursor: pointer;
+}
+
+.contact-box .contact-box--form button:hover {
+    background: var(--secondary-color);
+}
+
+.contact-box--form .contact-box--form__hotline span {
+    color: #fff !important;
+}
+
+.contact-box--form .contact-box--form__hotline span:first-child {
+    font-size: 15px;
+}
+
+.contact-box--form .contact-box--form__hotline span:last-child {
+    font-size: 18px;
+}
+
+.contact-box--form .contact-box--form__hotline::before {
+    background: url('../images/hotline-icon-contact.png') no-repeat;
+    background-size: 35px 40px;
+}
+
+.contact-box--form .contact-box--form--button-wrap {
+    padding-top: 10px;
+}
+
+.footer .footer-inner {
+    padding-top: 0;
+}
+
+.footer .footer--item h3,
+.footer .footer--item p {
+    margin-bottom: 15px;
+}
+
+.footer .footer--item:not(.footer__subscribe-box) {
+    max-width: 80%;
+}
+
+.footer .footer--social ul li {
+    display: inline-block;
+    padding-right: 15px;
+    font-size: 16px;
+}
+
+.footer .footer--subcribe {
+    margin-bottom: 25px;
+}
+
+.footer .footer--subcribe input {
+    padding: 10px;
+    background: #e6e6e6;
+    width: 100%;
+    padding-left: 40px;
+}
+
+.footer .footer--subcribe .form-group {
+    position: relative;
+}
+
+
+/* ---------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------- */
+
+
+/* page introduce begin */
+
+
+/* /introduce begin */
+
+.main-pd .main-pd__introduce {
+    background: url(../images/nhatdan-bg.png) no-repeat white;
+    padding-top: 100px !important;
+}
+
+.main-pd .main-pd__introduce h3 {
+    font-size: 36px;
+    font-family: 'Lato Bold';
+}
+
+.main-pd .main-pd__introduce>.container>p {
+    font-size: 13px;
+}
+
+.main-pd .page--header {
+    padding: 15px 0;
+}
+
+.main-pd .introduce--left {
+    padding-top: 50px;
+}
+
+.main-pd .introduce--left p {
+    margin: 15px 0;
+    text-align: justify;
+    font-size: 16px;
+}
+
+
+/* end introduce */
+
+
+/* somepicture begin */
+
+.pd-header {
+    font-size: 48px;
+    font-family: 'Lato Light';
+    font-weight: unset;
+    text-align: center;
+    margin: 50px 0;
+}
+
+
+/* end somepicture */
+
+
+/* begin about us */
+
+.main-pd .main-pd__about-us .about-us--story {
+    background: url(../images/pd-about-us-bg.png) no-repeat white;
+}
+
+.main-pd .about-us--story {
+    background: white;
+}
+
+.main-pd .about-us--title,
+.main-pd .story__content {
+    margin: 0 auto;
+}
+
+.main-pd .about-us--title {
+    text-align: center;
+}
+
+.main-pd .main-pd__about-us .about-us--story {
+    padding-top: 115px;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+.main-pd .main-pd__about-us .about-us--story .story__content {
+    background: white;
+    padding: 50px;
+}
+
+
+/* end about us */
+
+
+/* main-pd__misson-vision begin */
+
+.main-pd p {
+    font-size: 16px;
+}
+
+.main-pd .main-pd__misson-vision .misson-vision--header {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main-pd .main-pd__misson-vision .misson-vision--list {
+    border: solid 1px #cdb4a2;
+    margin: 15px;
+    margin-top: 70px;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+}
+
+.main-pd .main-pd__misson-vision .misson-vision--list::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -43px;
+    left: calc(50% - 43px);
+    width: 86px;
+    height: 86px;
+    background: url(../images/pd-coffee.png) no-repeat;
+    background-size: cover;
+}
+
+.main-pd .main-pd__misson-vision .misson-vision--list h4 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Lato Bold';
+}
+
+
+/* main-pd__misson-vision end */
+
+
+/* main-pd__freeship begin */
+
+.main-pd .main-pd__freeship .freeship--content {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main-pd .main-pd__freeship .freeship--content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.main-pd .main-pd__freeship .freeship--content p {
+    padding: 0 30px;
+}
+
+
+/* main-pd__freeship end */
+
+
+/* ---------------------------------------------------------------- */
+
+
+/* ------------------------page introduce End --- ----------------- */
+
+
+/* ---------------------------------------------------------------- */
+
+
+/* ------------------------page Contact Begin --- ----------------- */
+
+
+/* ---------------------------------------------------------------- */
