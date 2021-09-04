@@ -1,0 +1,28 @@
+.main-pd .main-pd__list-product .list-product--icafe > p, .main-pd .main-pd__list-product .list-product--bmt-cafe > p, .main-pd .main-pd__list-product .list-product--caudat-cafe > p, .main-pd .main-pd__list-product .list-product--e-cafe > p, .main-pd .main-pd__list-product .list-product--a-cafe > p, .main-pd .main-pd__list-product .list-product--nhung-cafe > p {
+  font-size: 24px;
+  font-family: 'Lato Bold';
+  color: black;
+  border-bottom: 1px solid var(--primary-color);
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  margin-top: 50px; }
+  .main-pd .main-pd__list-product .list-product--icafe > p > a, .main-pd .main-pd__list-product .list-product--bmt-cafe > p > a, .main-pd .main-pd__list-product .list-product--caudat-cafe > p > a, .main-pd .main-pd__list-product .list-product--e-cafe > p > a, .main-pd .main-pd__list-product .list-product--a-cafe > p > a, .main-pd .main-pd__list-product .list-product--nhung-cafe > p > a {
+    display: inline-block;
+    float: right;
+    font-size: 13px;
+    padding-top: 8px;
+    text-transform: uppercase; }
+
+.main-pd .main-pd__list-product .list-product--icafe .product img, .main-pd .main-pd__list-product .list-product--bmt-cafe .product img, .main-pd .main-pd__list-product .list-product--caudat-cafe .product img, .main-pd .main-pd__list-product .list-product--e-cafe .product img, .main-pd .main-pd__list-product .list-product--a-cafe .product img, .main-pd .main-pd__list-product .list-product--nhung-cafe .product img {
+  width: 100%;
+  height: auto; }
+
+.main-pd .main-pd__list-product .list-product--icafe .product .name, .main-pd .main-pd__list-product .list-product--bmt-cafe .product .name, .main-pd .main-pd__list-product .list-product--caudat-cafe .product .name, .main-pd .main-pd__list-product .list-product--e-cafe .product .name, .main-pd .main-pd__list-product .list-product--a-cafe .product .name, .main-pd .main-pd__list-product .list-product--nhung-cafe .product .name {
+  color: black;
+  font-size: 16px;
+  font-family: 'Lato Bold';
+  margin-top: 10px;
+  margin-bottom: 5px; }
+
+.main-pd .main-pd__freeship .freeship--content {
+  margin: 0 auto; }

@@ -1,0 +1,56 @@
+.main-pd{
+    .main-pd__list-product{
+        .list-product--icafe{
+            >p{
+                font-size: 24px;
+                font-family: 'Lato Bold';
+                color: black;
+                border-bottom: 1px solid var(--primary-color);
+                padding-bottom: 10px;
+                margin-bottom: 20px;
+                margin-top: 50px;
+                >a{
+                    display: inline-block;
+                    float: right;   
+                    font-size: 13px;
+                    padding-top: 8px;
+                    text-transform: uppercase;
+                }
+            }
+            .product{
+                img{
+                    width: 100%;
+                    height: auto;
+                }
+                .name{
+                    color: black;
+                    font-size: 16px;
+                    font-family: 'Lato Bold';
+                    margin-top: 10px;
+                    margin-bottom: 5px;
+                }
+                
+            }
+        } 
+        .list-product--bmt-cafe{
+            @extend .list-product--icafe;
+        }
+        .list-product--caudat-cafe{
+            @extend .list-product--icafe;
+        }
+        .list-product--e-cafe{
+            @extend .list-product--icafe;
+        }
+        .list-product--a-cafe{
+            @extend .list-product--icafe;
+        }
+        .list-product--nhung-cafe{
+            @extend .list-product--icafe;
+        }   
+    }
+    .main-pd__freeship{
+        .freeship--content{
+            margin: 0 auto;
+        }  
+    }
+}
