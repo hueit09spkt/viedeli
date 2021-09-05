@@ -1052,7 +1052,57 @@ select#adress{
 /* ---------------------------------------------------------------- */
 
 
-/* ------------------------page promotion Begin --- ----------------- */
+/* ------------------------page news Begin --- ----------------- */
+
+
+/* ---------------------------------------------------------------- */
+.main-news p.catalory {
+    color: var(--primary-color);
+    font-size: 13px;
+    text-transform: uppercase;
+    padding-top: 20px;
+    font-weight: 600; }
+  
+  .main-news h3.news--header {
+    color: #171717;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 25px; }
+  
+  .main-news .news__first-news h3.news--header {
+    font-size: 24px;
+    margin-bottom: 35px; }
+  .main-news .news__first-news{
+      margin-bottom: 50px;  }
+  .main-news .news__first-news p.catalory {
+    padding-top: 50px; }
+  
+  .main-news .list--item {
+    padding-bottom: 50px;
+    margin-bottom: 10px; }
+  
+  .main-news .dotted-change {
+    text-align: center; }
+    .main-news .dotted-change span {
+      display: inline-block;
+      padding: 7px 11px 5px 11px;
+      font-size: 18px;
+      color: var(--primary-color);
+      border-radius: 50%;
+      margin: 3px; }
+      .main-news .dotted-change span:hover, .main-news .dotted-change span.active {
+        color: white;
+        background: var(--primary-color); }
+  /* ---------------------------------------------------------------- */
+
+
+/* ------------------------page news End --- ----------------- */
+
+
+/* ---------------------------------------------------------------- */
+
+
+/* ------------------------page news Begin --- ----------------- */
 
 
 /* ---------------------------------------------------------------- */

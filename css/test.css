@@ -1,37 +1,36 @@
-.main-pm .pm-content {
-  position: relative;
-  margin-bottom: 50px; }
-  .main-pm .pm-content img {
-    height: 100%; }
-  .main-pm .pm-content .content--box {
-    position: absolute;
-    top: 100px;
-    right: 70px;
-    background: white;
-    padding: 30px;
-    width: 380px;
-    height: 350px; }
-    .main-pm .pm-content .content--box h3.box-header {
-      color: black;
-      font-size: 30px;
-      padding: 30px 0 50px 0; }
-    .main-pm .pm-content .content--box > a.button {
-      padding: 10px 25px;
-      margin-top: 10px;
-      display: inline-block;
+.main-news p.catalory {
+  color: var(--primary-color);
+  font-size: 13px;
+  text-transform: uppercase;
+  padding-top: 20px;
+  font-weight: 600; }
+
+.main-news h3.news--header {
+  color: #171717;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 25px; }
+
+.main-news .news__first-news h3.news--header {
+  font-size: 24px;
+  margin-bottom: 35px; }
+
+.main-news .news__first-news p.catalory {
+  padding-top: 50px; }
+
+.main-news .list--item {
+  padding-bottom: 50px;
+  margin-bottom: 10px; }
+
+.main-news .dotted-change {
+  text-align: center; }
+  .main-news .dotted-change span {
+    display: inline-block;
+    padding: 7px 11px 5px 11 px;
+    font-size: 18px;
+    color: var(--primary-color);
+    border-radius: 50%;
+    margin: 3px; }
+    .main-news .dotted-change span:hover, .main-news .dotted-change span.active {
       color: white;
-      border: 1px solid white;
-      margin-bottom: 30px;
-      background: var(--primary-color);
-      cursor: pointer; }
-      .main-pm .pm-content .content--box > a.button:hover {
-        background: white;
-        color: var(--primary-color);
-        border: 1px solid var(--primary-color); }
-  .main-pm .pm-content:nth-child(2n+1) .content--box {
-    background: var(--primary-color);
-    color: white; }
-    .main-pm .pm-content:nth-child(2n+1) .content--box h3.box-header {
-      color: white; }
-    .main-pm .pm-content:nth-child(2n+1) .content--box > a.button:hover {
-      border: 1px solid white; }
+      background: var(--primary-color); }
