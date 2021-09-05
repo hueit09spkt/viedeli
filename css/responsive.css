@@ -54,6 +54,9 @@
     .main-ct .main-ct__introduce {
         padding-left: 10px;
     }
+    .main-lct .main-lct__content .adress-service{
+        text-align: center;
+    }
 }
 
 @media all and (min-width: 768px) and (max-width: 992px) {

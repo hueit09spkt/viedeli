@@ -697,17 +697,17 @@
 
 /* main-id__freeship begin */
 
-.main-id .main-id__freeship .freeship--content {
+.main-id__freeship .freeship--content {
     margin: 0 auto;
     text-align: center;
 }
 
-.main-id .main-id__freeship .freeship--content h2 {
+.main-id__freeship .freeship--content h2 {
     font-size: 36px;
     margin-bottom: 20px;
 }
 
-.main-id .main-id__freeship .freeship--content p {
+.main-id__freeship .freeship--content p {
     padding: 0 30px;
 }
 
@@ -884,4 +884,109 @@
 
 .main-pd .page--header {
     padding: 15px 0;
+}
+
+.main-pd .main-pd__list-product .list-product--icafe > p, .main-pd .main-pd__list-product .list-product--bmt-cafe > p, .main-pd .main-pd__list-product .list-product--caudat-cafe > p, .main-pd .main-pd__list-product .list-product--e-cafe > p, .main-pd .main-pd__list-product .list-product--a-cafe > p, .main-pd .main-pd__list-product .list-product--nhung-cafe > p {
+    font-size: 24px;
+    font-family: 'Lato Bold';
+    color: black;
+    border-bottom: 1px solid var(--primary-color);
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 50px; }
+    .main-pd .main-pd__list-product .list-product--icafe > p > a, .main-pd .main-pd__list-product .list-product--bmt-cafe > p > a, .main-pd .main-pd__list-product .list-product--caudat-cafe > p > a, .main-pd .main-pd__list-product .list-product--e-cafe > p > a, .main-pd .main-pd__list-product .list-product--a-cafe > p > a, .main-pd .main-pd__list-product .list-product--nhung-cafe > p > a {
+      display: inline-block;
+      float: right;
+      font-size: 13px;
+      padding-top: 8px;
+      text-transform: uppercase; }
+  
+  .main-pd .main-pd__list-product .list-product--icafe .product img, .main-pd .main-pd__list-product .list-product--bmt-cafe .product img, .main-pd .main-pd__list-product .list-product--caudat-cafe .product img, .main-pd .main-pd__list-product .list-product--e-cafe .product img, .main-pd .main-pd__list-product .list-product--a-cafe .product img, .main-pd .main-pd__list-product .list-product--nhung-cafe .product img {
+    width: 100%;
+    height: auto; }
+  
+  .main-pd .main-pd__list-product .list-product--icafe .product .name, .main-pd .main-pd__list-product .list-product--bmt-cafe .product .name, .main-pd .main-pd__list-product .list-product--caudat-cafe .product .name, .main-pd .main-pd__list-product .list-product--e-cafe .product .name, .main-pd .main-pd__list-product .list-product--a-cafe .product .name, .main-pd .main-pd__list-product .list-product--nhung-cafe .product .name {
+    color: black;
+    font-size: 16px;
+    font-family: 'Lato Bold';
+    margin-top: 10px;
+    margin-bottom: 5px; }
+  
+  .main-pd .main-pd__freeship .freeship--content {
+    margin: 0 auto; }
+  
+/* ---------------------------------------------------------------- */
+
+
+/* ------------------------page Pruduce End --- ----------------- */
+
+
+/* ---------------------------------------------------------------- */
+
+
+/* ------------------------page adress Begin --- ----------------- */
+
+
+/* ---------------------------------------------------------------- */
+.main-lct .main-lct__introduce {
+    background: url(../images/nhatdan-bg.png) no-repeat white;
+    padding-top: 100px !important;
+}
+
+.main-lct .main-lct__introduce h3 {
+    font-size: 36px;
+    font-family: 'Lato Bold';
+}
+
+.main-lct .main-lct__introduce .introduce__content .introduce--left p.point {
+    font-size: 13px;
+    font-weight: bold;
+    color: black;
+}
+
+.main-lct .main-lct__introduce>.container>p>a {
+    color: #8c877d;
+}
+
+.main-lct .page--header {
+    padding: 15px 0;
+}
+
+.main-lct .introduce--left {
+    padding-top: 50px;
+}
+
+.main-lct .introduce--left p {
+    margin: 15px 0;
+    text-align: justify;
+    font-size: 16px;
+}
+
+
+.main-lct .introduce__content .introduce--right.page-lct{
+    text-align: right;
+}
+select#adress{
+    border-bottom: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    padding: 8px;
+    font-size: 16px;
+}
+.main-lct .main-lct__content h4.content--header{
+    font-size: 24px;
+    font-family: 'Lato Bold';
+    padding: 10px 0;
+    margin-top: 15px;
+}
+.main-lct .main-lct__content a.button{
+    padding: 10px 20px;
+    margin-top: 10px;
+    display: inline-block;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    margin-bottom: 30px;
+}
+.main-lct .main-lct__content a.button:hover{
+    color: white;
+    background: var(--primary-color);
 }
