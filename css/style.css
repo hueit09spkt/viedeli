@@ -1106,3 +1106,93 @@ select#adress{
 
 
 /* ---------------------------------------------------------------- */
+.main-lct-details__rating-comment .process-bar{
+    display: inline-block;
+    width: 50%;
+    height: 15px;
+    border-radius: 15px;
+    background: #f1f1f1;
+    margin: 10px 10px 10px 10%;
+}
+.main-lct-details__rating-comment .process-bar span.process{
+    display: inline-block;
+    height: 100%;
+    border-radius: 15px;
+    background: #808640;
+}
+span.process.fivestar{
+    width: 80%;
+}
+span.process.fourstar{
+    width: 40%;
+}
+span.process.threestar{
+    width: 25%;
+}
+span.process.twostar{
+    width: 15%;
+}
+span.process.onestar{
+    width: 10%;
+}
+
+.main-lct-details__introduce .container {
+    padding-bottom: 30px;
+    border-bottom: 5px solid #e1e1e1; }
+    .main-lct-details__introduce .container .content-lct {
+      padding-left: 50px; }
+      .main-lct-details__introduce .container .content-lct .lctd-header {
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 35px; }
+      .main-lct-details__introduce .container .content-lct p.adress {
+        font-size: 16px;
+        color: #3f3938;
+        padding-left: 20px;
+        position: relative;
+        padding-bottom: 15px; }
+        .main-lct-details__introduce .container .content-lct p.adress::before {
+          content: '';
+          display: block;
+          width: 16px;
+          height: 22px;
+          background: url(../images/ct-location-icon.png) no-repeat;
+          background-size: cover;
+          position: absolute;
+          top: -4px;
+          left: 0; }
+      .main-lct-details__introduce .container .content-lct p.rating i {
+        font-size: 25.5px;
+        color: #edbe2f;
+        padding-top: 10px;
+        padding-bottom: 15px; }
+      .main-lct-details__introduce .container .content-lct p.content {
+        padding-top: 15px;
+        padding-bottom: 30px; }
+  
+  .main-lct-details__rating-comment .container {
+    border-bottom: 5px solid #e1e1e1;
+    margin-bottom: 30px; }
+    .main-lct-details__rating-comment .container .rating-chart > p:nth-child(1) {
+      font-family: 'Lato Light';
+      font-size: 24px;
+      font-weight: normal; }
+    .main-lct-details__rating-comment .container .rating-chart > p:nth-child(2) {
+      font-size: 48px;
+      color: black; }
+    .main-lct-details__rating-comment .container .rating-chart > p:nth-child(3) i {
+      color: #edbe2f;
+      font-size: 25.5px; }
+    /* ---------------------------------------------------------------- */
+
+
+/* ------------------------page news End --- ----------------- */
+
+
+/* ---------------------------------------------------------------- */
+
+
+/* ------------------------page news Begin --- ----------------- */
+
+
+/* ---------------------------------------------------------------- */
