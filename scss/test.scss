@@ -1,77 +1,196 @@
-.main-news-details{
-    .news-details-box{
-        max-width: 830px;
-        margin: 0 auto;
-        text-align: center;}
-    .section-news-details{
-        max-width: 840px;
+.main-product-details{
+    .tree-link{
+        margin-bottom: 10px;
     }
-    .main-id__introduce{
-            h3.id-header{
-            font-family: 'Lato Light';
-            margin-bottom: 10px;
+    .product--introduce{
+        .product--introduce-text{
+            padding-left: 50px;
+            .product--header{
+                font-size: 36px;
             }
-            p.tree{
-            text-align: center;
-            margin-bottom: 30px;
+            .product--kind{
+                font-size: 16px;
+                color: #696969;
+                margin-bottom: 20px;
             }
-            p{
-                padding: 10px 30px;
-                text-align: inherit;
-                &>i{
-                    font-size: 18px;
-                    font-weight: 300;
-                    color: #151515;
-                    
-                    }
-            }  
-    }
-    .main-news-details__content{
-        .news-details-box{
-            padding: 0 35px;
-        }
-        .content--header{
-            font-size: 24px;
-            font-family: 'Lato Bold';
-            text-align: left;
-            margin: 20px 0;
-        }
-        .content--details{
-            text-align: left;
-            font-size: 16px;
-            margin-bottom: 20px;
-        }
-        .contact{
-            p{
+            .product--content{
                 margin: 15px 0;
-                font-size: 14px;
-                text-align: left;
-                a{
-                    display: inline-block;
-                    padding: 0 20px;
+            }
+            .product--prince{
+                font-size: 30px;
+                color: #2b2b2b;
+                margin: 15px 0;
+            }
+            a.button-buy{
+                display: block;
+                padding: 15px 20px;
+                font-size: 18px;
+                color: white;
+                background: var(--primary-color);
+                max-width: 200px;
+                text-transform: uppercase;
+                text-align: center;
+                border: 1px solid  var(--primary-color);
+                margin-bottom: 20px;
+                &:hover{
+                    color: var(--primary-color);
+                    background-color: white;
+                    border: 1px solid  var(--primary-color);
                 }
             }
-            border-bottom: 1px solid #e0e0e0;
-        }
-        
-    }
-    .main-news-details__relate{
-        h2.realate--header{
-            font-size: 30px;
-            font-weight: normal;
-            color: #3d3838;
-            text-align: center;
-            margin-bottom: 50px;
-        }
-        .list--item{
-            .news--header{
-                margin: 10px 0;
+            .phone-box{
+                position: relative;
+                padding: 10px 0;
+                padding-left: 55px;
+                &>.text{
+                    font-size: 13px;
+                    text-transform: uppercase;
+                }
+                &>.number{
+                    font-size: 20px;
+                    color: var(--primary-color);
+                    font-weight: bold;
+                    line-height: 30px;
+                }
+                &::before{
+                    content: '';
+                    display: block;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 45px;
+                    height: 51px;
+                    background: url(../images/phone-icon.png) no-repeat white;
+                    background-position: center center;
+                }
+            }
+            .share-social{
+                text-transform: uppercase;
+                padding: 15px 0;
+                font-size: 12px;
+                i{
+                    margin: 0 10px;
+                    font-size: 16px;
+                }
+                border-bottom: 1px solid gray;
+                margin-bottom: 30px;
             }
         }
+    }
+    
+    .product-information__box{
+            margin: 0 auto !important;
+            .box-header{
+                font-size: 24px;
+                text-align: center;
+                padding: 50px 0;
+            }
+            .main-slide {
+                .main-slide__controls{
+                    span{
+                        background: inherit;
+                        color: white;
+                    }      
+                }
+                .main-slide__dots{
+                    margin-top: 5px;
+                    margin-bottom: 30px;
+                    position: unset;
+                    span{
+                        background: rgb(214, 214, 214);
+                        border: none;
+                        &:hover{
+                            background: var(--primary-color);
+                        }
+                        &.active{
+                            background: var(--primary-color);
+                        }
+                    }
+                    
+                }
+                .opaciti-box{
+                    position: absolute;
+                    left: 0;
+                    bottom: 25px;
+                    right: 0;
+                    background: #26282986;
+                    height: 50px;
+                    line-height: 50px;
+                    padding-left: 30px;
+                    p{
+                        color: white;
+                    }
+                }
+            }
+            .information--rating{
+                margin-top: 30px;
+                .rating-star{
+                    p{
+                        &:nth-child(1){
+                            font-family: 'Lato Light';
+                            font-size: 24px;
+                            font-weight: normal;
+                        }
+                        &:nth-child(2){
+                            font-size: 48px;
+                            color: black; 
+                        }
+                        &:nth-child(3){
+                            color: #edbe2f;
+                            font-size: 25.5px; 
+                        }
+                        &:nth-child(4){
+                            font-size: 12px;
+                        }
+                    }     
+                }
+                .rating-chart{
+                    .process-bar{
+                        width: 80%;
+                        margin-left: 0;
+                    }
+                }
+            }
+            .question-vote{
+                padding: 20px;
+                p{
+                    font-family: 'Lato Light';
+                    font-size: 24px;
+                    padding: 20px 10px;
+                }
+                a{
+                    margin: 0 auto;
+                    display: block;
+                    border-radius: 2px;
+                    color: white;
+                    background: var(--primary-color);
+                    text-align: center;
+                    max-width: 200px;
+                    line-height: 40px;
+                    text-transform: uppercase;
+                    border: 1px solid var(--primary-color);
+                    &:hover{
+                        color: var(--primary-color);
+                        background: white;
+                        border: 1px solid var(--primary-color);
+                    }
+                }
+            }   
+    }
+    .product-details--more-product{
         .container{
-            padding-bottom: 30px;
-            border-bottom: 3px solid #888888;
+            border-top: 3px solid rgb(185, 184, 184);
         }
         
-    }
+        .box-header{
+            font-size: 24px;
+            text-align: center;
+            padding: 30px 0;
+        }
+        .product{
+            .name{
+                color: black;
+            }
+        }
+    } 
 }
